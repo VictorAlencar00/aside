@@ -18,15 +18,15 @@
     height: 40px;
     display: flex;
     text-decoration: none;
-    /* text-align: center; */
-    /* background-color: rgb(255, 0, 234); */
+    padding-left: 5px;
 }
 .create{
     color: white;
     display: flex;
     height: 60px;
-    width: 150px;
-    margin: 25px;
+    width: 170px;
+    /* margin: 25px; */
+    margin: 25px 15px 25px 15px;
     justify-content: center;
     border-radius: 20px;
     background-color: black;
@@ -43,40 +43,31 @@ nav ul {
     justify-content: center;
     list-style: none;
     align-items: center;
-    /* gap: 30px; */
+    gap: 16px;
     width: 100%;
 }
-/* nav ul li a,
 nav ul li{
-    display: flex;
-    cursor: pointer;
-    flex-direction: column;
-    text-align: center;
-    width: 200px;
-    text-decoration: none;
-    padding: 12px 0px 12px 0px;
-    color: black;
-    background-color:burlywood;
-} */
-
-nav ul li{
-    padding: 24px 0px 24px 0px;
-    background-color:burlywood;
     width: 200px;
     align-items: center;
-    /* text-align: center; */
+
 }
 
 nav ul li a{
     display: flex;
-    justify-content: center;
     color: black;
+    height: 60px;
     width: 200px;
     text-decoration: none;
     align-items: center;
+    padding-left: 20px;
+    /* justify-content: center; */
 }
 
+.logo:hover{
+    /* background-color: gray; */
+    background-color: rgba(0, 0, 0, .3)
+}
 nav ul li a:hover{
-    /* background-color: black;
-     */
+    /* background-color: gray; */
+    background-color: rgba(0, 0, 0, .3)
 }
